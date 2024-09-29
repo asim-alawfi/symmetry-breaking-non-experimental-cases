@@ -55,7 +55,7 @@ df_btd=arrayfun(@(x)x.parameter(in.df),pfbranch_TD_wbifs.point);
 pfbranch_TD=br_remove_extracolumns(pfbranch_TD);
 pfbranch_TD_wbifs=br_remove_extracolumns(pfbranch_TD_wbifs);
 save('symmetry_breaking_TD_try2.mat')
-%% Plot symmetry-breaking + POs with touching threshold 
+%% Plotting symmetry-breaking and touching threshold solutions
 load('touching_theta_case_increased_TD_try2.mat')
 %
 nunst_pct1=nunst_pc{1};
