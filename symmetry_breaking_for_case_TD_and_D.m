@@ -52,7 +52,7 @@ pfbranch_TDD_wbifs=br_remove_extracolumns(pfbranch_TDD_wbifs);
 legend('symmetry-breaking','FontSize',16)
 %%
 save('symmetry_breaking_TD_and_D_try2.mat')
-%% Plot symmetry-breaking + POs with touching theta %%%%%%%%%%%%%%
+%% Plotting symmetry-breaking and touching threshold solutions
 load('touching_theta_case_increased_TD_and_D_try2.mat')
 %%
 nunst_pct2=nunst_pc{2};
