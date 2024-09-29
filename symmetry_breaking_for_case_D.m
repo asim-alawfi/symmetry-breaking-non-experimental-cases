@@ -96,7 +96,7 @@ pf_br=br_remove_extracolumns(pf_br);
 pf_br_wbifs=br_remove_extracolumns(pf_br_wbifs);
 %%
 save('symmetry_breaking_D_b2_try2.mat')
-%%
+%% Plotting symmetry-breaking and touching threshold solutions
 load('touching_theta_case_increased_D_try2.mat')
 nunst_pc3=nunst_pc{3};
 rp_bt2=arrayfun(@(x)x.parameter(in.PR),br_crossing_wbifs(3).point);
